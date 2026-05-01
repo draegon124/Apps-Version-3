@@ -1,0 +1,61 @@
+.account-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--paper), #f5f1e8);
+  padding: 20px;
+}
+
+.account-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(47, 42, 36, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.account-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--soil-dark);
+  font-family: var(--heading);
+}
+
+.account-card label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: var(--soil);
+}
+
+.account-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.account-save-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: var(--barn);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.account-save-btn:hover {
+  background: #a02828;
+}
+
+.account-message {
+  text-align: center;
+  margin-bottom: 10px;
+  color: green;
+}

@@ -1,0 +1,13 @@
+.wood-frame {
+  background: #2a2a27;
+  border-radius: 6px;
+}
+
+.wood-frame--chalked::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px dashed rgba(200, 195, 180, 0.15);
+  border-radius: 2px;
+  pointer-events: none;
+}
