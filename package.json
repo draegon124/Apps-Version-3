@@ -1,9 +1,7 @@
 {
   "name": "apps",
   "version": "1.0.0",
-    "description": "Simple Express app",
-  "license": "ISC",
-  "author": "",
+  "description": "Simple Express app",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -12,4 +10,4 @@
   "dependencies": {
     "express": "^4.18.2"
   }
-  }
+}
